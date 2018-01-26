@@ -97,3 +97,11 @@ To find the position we use the formula:<br/>
 
 > If elements are uniformly distributed then it take O(log log n) time.<br/>
 > In worst case it can take upto O(n)
+**Given a list of numbers a[] = {1,3,5,7,9,11,13,15,17,19,21}. Search the value 19 using interpolation search.**
+
+    Low = o, high = 10, val = 19
+    a[low]=1, a[high] = 21
+    position = low + (high-low)*((val-a[low])/(a[high]-a[low]))
+    		 = 0 + (10-0)*((19-1)/(21-1))
+    		 = 0 + 10*0.9 = 9
+    a[position] = a[9] = 19 which is equal to the value to be searched.
