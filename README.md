@@ -50,8 +50,35 @@ BinarySearch(array,lower_bound,upper_bound,value)
 ```
 ### Mechanism / Example
 
-Consider the array A[] 
+```
+Consider the array A[ ] that is initialized as 
+A[ ] = {0,1,2,3,4,5,6,7,8,9,10}
+the value to be search is value=4
+begining=0
+end = 10
+mid = (0+10)/2 = 5
+************************************************************************************
+Now value = 4 and A[mid] = 5 so, A[5] is greater than the value , therefore we serach 
+for the value in first half.
+So we change end and mid
+Now end = mid-1=5-1=4 , begining = 0 
+mid = (0+4)/2 = 2
+*************************************************************************************
+Again, Value=4 and A[2] = 2
+Now A[2] is less than the value so 
+begining = mid + 1 = 2+1 = 3
+end = 4
+mid = (3+4)/2 = 3
+************************************************************************************
+Again, value = 4 and A[3]=3
+Now A[3] is lwss than the value so
+so begining = mid + 1 = 3 + 1 = 4
+end = 4
+mid = (4+4)/2 = 4
+finally, a[mid] = value 
+so, find at postion mid = 4
 
+```
 ## Deployment
 
 Add additional notes about how to deploy this on a live system
