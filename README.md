@@ -81,7 +81,7 @@ so, find at postion mid = 4
 ```
 ### Complexity
 ```
-This algoriithm run in $logn
+This algoriithm run in log(n) time
 ```
 ## Deployment
 
