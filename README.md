@@ -79,6 +79,10 @@ finally, a[mid] = value
 so, find at postion mid = 4
 
 ```
+### Complexity
+```
+This algoriithm run in $logn
+```
 ## Deployment
 
 Add additional notes about how to deploy this on a live system
