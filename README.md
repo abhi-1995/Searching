@@ -83,3 +83,17 @@ so, find at postion mid = 4
 ```
 This algoriithm run in log(n) time.
 ```
+## Interpolation Search
+
+### Description
+
+
+The **interpolation search** is an improvement over binary search, where the values in a sorted array are uniformly distributed. Binary search always go to middle element to check the value. On the other hand interpolation search may go to different position according to the key value.
+To find the position we use the formula:<br/>
+
+    position = lower_bound + [(x-array[0])*(high-lower_bound)/(array[high]-array[lower_bound])]
+    
+### Time Complexity
+
+> If elements are uniformly distributed then it take O(log log n) time.<br/>
+> In worst case it can take upto O(n)
