@@ -19,6 +19,10 @@ LinearSearch(array,size,serachValue)
 }
 
 ```
+Time Complexity
+```
+Linear Search executes in O(n) time where n is the number of elements in the array
+```
 
 ### Prerequisites
 
