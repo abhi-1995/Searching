@@ -6,6 +6,18 @@ Searching means to find whether a particular value is present in an array or not
 Linear Search is also called as sequential search, is a very simple method use for searching an array for a particular value.
 Linear search is mostly used to search an unordered list of elements .
 ```
+LinearSearch(array,size,serachValue)
+{
+    position = -1;
+    i=1;
+    while i<=size
+    {
+        if array[i]==searchValue then
+          position = i;
+    }
+    return the position;
+}
+
 ```
 
 ### Prerequisites
