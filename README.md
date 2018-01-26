@@ -48,6 +48,9 @@ BinarySearch(array,lower_bound,upper_bound,value)
 }
 
 ```
+### Mechanism / Example
+
+Consider the array A[] 
 
 ## Deployment
 
