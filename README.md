@@ -107,3 +107,23 @@ To find the position we use the formula:<br/>
     		 = 0 + (10-0)*((19-1)/(21-1))
     		 = 0 + 10*0.9 = 9
     a[position] = a[9] = 19 which is equal to the value to be searched.
+#### Compaisons in time complexity
+
+<table>
+  <tr>
+    <th>Algorithm</th>
+    <th>Time Complexity</th>
+  </tr>
+  <tr>
+    <td>Linear Search</td>
+    <td>O(n)</td>
+  </tr>
+  <tr>
+    <td>Binary Search</td>
+    <td>O(log n)</td>
+  </tr>
+  <tr>
+    <td>Interpolation Search</td>
+    <td>O(log log n)</td>
+  </tr>
+</table>
