@@ -96,8 +96,7 @@ To find the position we use the formula:<br/>
 ### Time Complexity
 
 > If elements are uniformly distributed then it take O(log log n) time.<br/>
-> In worst case it can take upto O(n)
-<br/>
+> In worst case it can take upto O(n)<br/>
 #### Given a list of numbers a[] = {1,3,5,7,9,11,13,15,17,19,21}. Search the value 19 using interpolation search.
 
     Low = o, high = 10, val = 19
