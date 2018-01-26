@@ -107,6 +107,9 @@ To find the position we use the formula:<br/>
     		 = 0 + (10-0)*((19-1)/(21-1))
     		 = 0 + 10*0.9 = 9
     a[position] = a[9] = 19 which is equal to the value to be searched.
+
+----------    
+
 #### Compaisons in time complexity
 
 <table>
