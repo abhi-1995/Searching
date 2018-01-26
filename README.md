@@ -81,5 +81,5 @@ so, find at postion mid = 4
 ```
 ### Complexity
 ```
-This algoriithm run in log<sub>2</sub><sup>n</sup> time
+This algoriithm run in log(n) time.
 ```
