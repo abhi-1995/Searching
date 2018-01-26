@@ -25,9 +25,29 @@ LinearSearch(array,size,serachValue)
 Linear Search executes in O(n) time where n is the number of elements in the array
 ```
 ## Binary Seacrch
+Binary Search is searching algorithm that works efficiently with a sorted list
 
+### Algorithm
+```
+BinarySearch(array,lower_bound,upper_bound,value)
+{
+    initialize: begining = lower_bound
+                end = upper_bound
+                position = -1
+    while begining <= end:
+        set: mid = (begining+end)/2
+        if array[mid]== value then
+            set: position = mid
+        else if array[mid]>value:
+            set: end = mid-1
+        else
+            set: beg = mid + 1
+        end if
+    end while
+    return position
+}
 
-
+```
 
 ## Deployment
 
