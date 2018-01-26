@@ -1,4 +1,4 @@
-# Project Title
+# Searching Algorithm
 
 One Paragraph of project description goes here
 
