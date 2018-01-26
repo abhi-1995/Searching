@@ -24,6 +24,7 @@ LinearSearch(array,size,serachValue)
 ```
 Linear Search executes in O(n) time where n is the number of elements in the array
 ```
+----------
 ## Binary Seacrch
 Binary Search is searching algorithm that works efficiently with a sorted list
 
@@ -83,6 +84,7 @@ so, find at postion mid = 4
 ```
 This algoriithm run in log(n) time.
 ```
+----------
 ## Interpolation Search
 
 ### Description
